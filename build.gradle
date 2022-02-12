@@ -1,0 +1,57 @@
+//plugins {
+//	id 'org.springframework.boot' version '2.6.3'
+//	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+//	id 'java'
+//}
+//
+//group = 'com.jojoldu.book'
+//version = '0.0.1-SNAPSHOT'
+//sourceCompatibility = '1.8'
+//
+//repositories {
+//	mavenCentral()
+//	jcenter()
+//}
+//
+//dependencies {
+//	implementation 'org.springframework.boot:spring-boot-starter-web'
+//    implementation 'junit:junit:4.13.1'
+//    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+//}
+//
+//test {
+//	useJUnitPlatform()
+//}
+buildscript {
+	ext {
+		springBootVersion = '2.1.9.RELEASE'
+	}
+	repositories {
+		mavenCentral()
+		jcenter()
+	}
+	dependencies {
+		classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+	}
+}
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'org.springframework.boot'
+apply plugin: 'io.spring.dependency-management'         // 스프링 부트의 의존성들을 관리해주는 플러그인이기 때문에 꼭 추가해야만 합니다.
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+	mavenCentral()
+	jcenter()
+}
+
+dependencies {
+	implementation('org.springframework.boot:spring-boot-starter-web')
+	implementation('org.projectlombok:lombok')
+	implementation('org.springframework.boot:spring-boot-starter-data-jpa')
+	implementation('com.h2database:h2') //인메모리 관계형 데이터베이스,메모리에서 실행되기 떄문에 애플리케이션을 재시작할때마다 초기화된다는 점을 이용해 테스트 용도로 많이 사용
+	testImplementation('org.springframework.boot:spring-boot-starter-test')
+}
