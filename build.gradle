@@ -53,5 +53,6 @@ dependencies {
 	implementation('org.projectlombok:lombok')
 	implementation('org.springframework.boot:spring-boot-starter-data-jpa') //스프링 부트용 Spring Data JPA 추상화 라이브러리,스프링 부트 버전에 맞게 자동으로 JPA 라이브러리 관리
 	implementation('com.h2database:h2') //인메모리 관계형 데이터베이스,메모리에서 실행되기 떄문에 애플리케이션을 재시작할때마다 초기화된다는 점을 이용해 테스트 용도로 많이 사용
+	implementation('org.springframework.boot:spring-boot-starter-mustache')
 	testImplementation('org.springframework.boot:spring-boot-starter-test')
 }
