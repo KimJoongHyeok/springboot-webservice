@@ -35,3 +35,6 @@ out/
 
 ### VS Code ###
 .vscode/
+
+### 클라이언트 id,password 설정정보있어서 추가 ###
+application-oauth.properties
