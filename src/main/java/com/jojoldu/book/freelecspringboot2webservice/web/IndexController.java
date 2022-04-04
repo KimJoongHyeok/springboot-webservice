@@ -1,5 +1,6 @@
 package com.jojoldu.book.freelecspringboot2webservice.web;
 
+import com.jojoldu.book.freelecspringboot2webservice.config.auth.LoginUser;
 import com.jojoldu.book.freelecspringboot2webservice.config.auth.dto.SessionUser;
 import com.jojoldu.book.freelecspringboot2webservice.service.posts.PostsService;
 import com.jojoldu.book.freelecspringboot2webservice.web.dto.PostsResponseDto;
@@ -16,14 +17,14 @@ import javax.servlet.http.HttpSession;
 public class IndexController {
 
     private final PostsService postsService;
-    private final HttpSession httpSession;
+    //private final HttpSession httpSession;
 
     @GetMapping("/")
-    public String index(Model model) {
+    public String index(Model model, @LoginUser SessionUser user) {
 
         model.addAttribute("posts", postsService.findAllDesc());
 
-        SessionUser user = (SessionUser) httpSession.getAttribute("user");
+        //SessionUser user = (SessionUser) httpSession.getAttribute("user");
 
         if (user != null) {
             model.addAttribute("loginUserName", user.getName());
