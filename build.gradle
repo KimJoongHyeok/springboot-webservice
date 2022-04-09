@@ -60,4 +60,6 @@ dependencies {
 	implementation('org.springframework.session:spring-session-jdbc')
 	implementation('org.springframework.boot:spring-boot-starter-mustache')
 	testImplementation('org.springframework.boot:spring-boot-starter-test')
+	testImplementation('org.springframework.security:spring-security-test')
 }
+
