@@ -22,5 +22,6 @@ h2 database<BR>
 <hr>
 
 ### Chap.6 AWS 서버 환경을 만들어 보자
-  6.1 AWS 회원가입 [링크](https://velog.io/@moon960427/AWS-%EC%84%9C%EB%B2%84-%ED%99%98%EA%B2%BD-%EB%A7%8C%EB%93%A4%EC%96%B4%EB%B3%B4%EA%B8%B0) <BR>
-  6.2 EC2 인스턴스 생성하기 [링크](https://velog.io/@moon960427/AWS-%EC%84%9C%EB%B2%84-%ED%99%98%EA%B2%BD-%EB%A7%8C%EB%93%A4%EC%96%B4%EB%B3%B4%EA%B8%B0)
+  - 6.1 AWS 회원가입 [링크](https://velog.io/@moon960427/AWS-%EC%84%9C%EB%B2%84-%ED%99%98%EA%B2%BD-%EB%A7%8C%EB%93%A4%EC%96%B4%EB%B3%B4%EA%B8%B0) <BR>
+  - 6.2 EC2 인스턴스 생성하기 [링크](https://velog.io/@moon960427/AWS-%EC%84%9C%EB%B2%84-%ED%99%98%EA%B2%BD-%EB%A7%8C%EB%93%A4%EC%96%B4%EB%B3%B4%EA%B8%B0)<BR>
+  - 6.3 EC2 서버에 접속하기 [링크](https://velog.io/@moon960427/AWS-%EC%9C%88%EB%8F%84%EC%9A%B0%EC%97%90%EC%84%9C-EC2-%EC%84%9C%EB%B2%84-%EC%A0%91%EC%86%8D%ED%95%98%EA%B8%B0)<BR>
