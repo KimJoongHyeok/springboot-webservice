@@ -28,3 +28,4 @@ Chap 6부터는 AWS 생성과 RDS에 관련한 내용이라 커밋이 없습니�
   - 6.4 아마존 리눅스 서버 생성 시 꼭 해야 할 설정들 [링크](https://velog.io/@moon960427/AWS-%EC%95%84%EB%A7%88%EC%A1%B4-%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%84%9C%EB%B2%84-%EC%84%A4%EC%A0%95) <BR>
 ### Chap.7  AWS에 데이터베이스 환경을 만들어보자 - AWS RDS  
   - 7.1 RDS 인스턴스 생성하기 [링크](https://velog.io/@moon960427/AWS-RDS-%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4-%EC%83%9D%EC%84%B1%ED%95%98%EA%B8%B0)<BR>
+  - 7.2 RDS 운영환경에 맞는 파라미터 설정하기 [링크](https://velog.io/@moon960427/AWS-RDS-%EC%9A%B4%EC%98%81%ED%99%98%EA%B2%BD-%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0-%EC%84%A4%EC%A0%95)
