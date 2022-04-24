@@ -30,3 +30,4 @@ Chap 6부터는 AWS 생성과 RDS에 관련한 내용이라 커밋이 없습니�
   - 7.1 RDS 인스턴스 생성하기 [링크](https://velog.io/@moon960427/AWS-RDS-%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4-%EC%83%9D%EC%84%B1%ED%95%98%EA%B8%B0)<BR>
   - 7.2 RDS 운영환경에 맞는 파라미터 설정하기 [링크](https://velog.io/@moon960427/AWS-RDS-%EC%9A%B4%EC%98%81%ED%99%98%EA%B2%BD-%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0-%EC%84%A4%EC%A0%95)
   - 7.3 내 PC에서 RDS에 접속해 보기 [링크](https://velog.io/@moon960427/AWS-%EB%82%B4-PC%EC%97%90%EC%84%9C-RDS-%EC%A0%91%EC%86%8D%ED%95%98%EA%B8%B0)
+  - 7.4 EC2에서 RDS 접근 확인 [링크](https://velog.io/@moon960427/AWS-%EB%82%B4-PC%EC%97%90%EC%84%9C-RDS-%EC%A0%91%EC%86%8D%ED%95%98%EA%B8%B0)
